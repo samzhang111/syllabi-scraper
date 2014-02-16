@@ -1,12 +1,14 @@
 #Scraper
 
-Requirements: python 2.7, MySQL, redis, and the libraries in requirements.txt
+Requirements: python 2.7, MySQL, redis, and requirements.txt
 
 A python scraper that takes an input tab-separated file of IDs and URLs, and stores the HTML contents of the URLs into a MySQL database, keyed by ID.
 
 ###Run
 set config variables in scraper/config.py and scraper/db_settings.py
+
 initialize redis with python helpers/makequeue.py
+
 python scraper/run_workers.py
 
 ###Settings
