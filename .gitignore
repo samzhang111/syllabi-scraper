@@ -1,0 +1,3 @@
+*.swp
+*.pyc
+scraper/db_settings_local.py
